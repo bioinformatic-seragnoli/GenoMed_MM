@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+data/data/BOBseg_file.csv
+data/ASCATseg_file.csv
+data/Broad_CNA_SNParray.csv

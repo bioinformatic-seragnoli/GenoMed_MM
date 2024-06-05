@@ -26,7 +26,7 @@ for (a in seq_along(arms)) {
   
 }
 
-write.csv(CNA_db,"data/Broad_CNA_SNParray.csv")
+
 
 #-------------------------------- ULP-WGS -----------------------------------
 ulp_seg <- read.csv("data/ULPseg_file.csv", row.names = 1)
@@ -72,6 +72,7 @@ ord <- c("MPC", "Method", alt)
 
 ulp_CNA_db3 <- ulp_CNA_db3 %>%  select(ord)
 
+#------------------ final dataset assembly ----------------------
 genomic_db <- rbind(ulp_CNA_db3, CNA_db3)
 
 write.csv(genomic_db, "script/final_genomic_dataset.csv")
