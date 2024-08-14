@@ -1,0 +1,10 @@
+samples:
+        MPC_1837_g_MM_E_S27_R1: ['/g100_work/Gen4A_mulmy/input/MPC_1837_g_MM_E_S27_L001_R1_001.fastq.gz', 
+                                '/g100_work/Gen4A_mulmy/input/MPC_1837_g_MM_E_S27_L002_R1_001.fastq.gz', 
+                                '/g100_work/Gen4A_mulmy/input/MPC_1837_g_MM_E_S27_L003_R1_001.fastq.gz', 
+                                '/g100_work/Gen4A_mulmy/input/MPC_1837_g_MM_E_S27_L004_R1_001.fastq.gz']
+
+bam:
+        MPC_1837_g_MM_E_S27_R1: '/g100_work/Gen4A_mulmy/results/remDup_recal_bam/remDup_recal_MPC_1837_g_MM_E_S27_R1.bam'
+
+                                            
